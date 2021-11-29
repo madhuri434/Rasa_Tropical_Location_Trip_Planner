@@ -1,0 +1,154 @@
+version: "2.0"
+stories:
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: travel
+  - action: utter_travel
+  - intent: maui
+  - action: utter_thingstodoinmaui
+  - intent: goodbye
+  - action: utter_goodbye
+- story: happy path 4
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: weather
+  - action: utter_city
+  - intent: city
+  - action: action_weather_api
+- story: happy path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: travel
+  - action: utter_travel
+  - intent: maui
+  - action: utter_thingstodoinmaui
+  - intent: history
+  - action: utter_history
+  - intent: localfood
+  - action: utter_localfood
+  - intent: goodbye
+  - action: utter_goodbye
+- story: interactive_story_1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: greet
+  - action: utter_greet
+  - intent: maui
+  - action: utter_thingstodoinmaui
+  - intent: thingstodoinmaui
+  - action: utter_thingstodoinmaui
+  - intent: goodbye
+  - action: utter_goodbye
+  - action: utter_goodbye
+- story: Story from Conversation ID f430315ca9454aa393f949e86d3b8470
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: maui
+  - action: utter_thingstodoinmaui
+  - intent: localfood
+  - action: utter_localfood
+  - intent: history
+  - action: utter_history
+- story: happy path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: travel
+  - action: utter_travel
+  - intent: maui
+  - action: utter_thingstodoinmaui
+  - intent: monthtovisit
+  - action: utter_monthtovisit
+  - intent: hotel
+  - action: utter_hotel
+  - intent: activity
+  - action: utter_activity
+  - intent: foodoptions
+  - action: utter_foodoptions
+  - intent: rentacar
+  - action: utter_rentacar
+  - intent: goodbye
+  - action: utter_goodbye
+- story: Story from Conversation ID d544d5708f864208870c26b640100c7e
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: travel
+  - action: utter_travel
+  - intent: affirm
+  - action: utter_greet
+  - intent: maui
+  - action: utter_thingstodoinmaui
+  - intent: history
+  - action: utter_history
+  - intent: localfood
+  - action: utter_localfood
+  - intent: monthtovisit
+  - action: utter_monthtovisit
+  - intent: hotel
+  - action: utter_hotel
+  - intent: activity
+  - action: utter_activity
+  - intent: rentacar
+  - action: utter_rentacar
+  - intent: foodoptions
+  - action: utter_foodoptions
+  - intent: goodbye
+  - action: utter_goodbye
+- story: Story from Conversation ID 9d10bace9ff04d8890c98c7ff069b940
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: maui
+  - action: utter_thingstodoinmaui
+  - intent: localfood
+  - action: utter_localfood
+  - intent: rentacar
+  - action: action_default_fallback
+  - intent: rentacar
+  - action: utter_rentacar
+  - intent: foodoptions
+  - action: action_default_fallback
+  - intent: foodoptions
+  - action: utter_foodoptions
+  - intent: goodbye
+  - action: utter_goodbye
+  - action: action_restart
+- story: happy path 3
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_weather_location
+  - action: utter_travel
+  - intent: maui
+  - action: utter_thingstodoinmaui
+  - intent: goodbye
+  - action: utter_goodbye
+- story: Story from Conversation ID 3006fa2df5f1420681238abc532d61a1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: travel
+  - action: utter_travel
+  - intent: maui
+  - action: utter_thingstodoinmaui
+  - intent: rentacar
+  - action: utter_rentacar
+  - intent: foodoptions
+  - action: action_default_fallback
+  - intent: foodoptions
+  - action: utter_foodoptions
+  - intent: history
+  - action: utter_history
+  - intent: goodbye
+  - action: utter_goodbye
+  - action: action_deactivate_loop
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null

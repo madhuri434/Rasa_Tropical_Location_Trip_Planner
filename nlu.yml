@@ -1,0 +1,203 @@
+version: "2.0"
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+- intent: weather
+  examples: |
+    - How is the weather today in berlin?
+    - How is the weather today in hawaii?
+    - How is the weather today in san francisco?
+    - weather in paris
+    - tell me weather of anchorage
+    - tell me weather of fairbanks
+    - weather in anchorage
+    - weather in fairbanks
+    - weather in reykjavik.
+    - How is the weather today in new york?
+    - what's the weather
+    - i want to know the weather of today
+    - tell me the weather forcast
+    - hows the weather today
+    - how's the weather
+    - how is the weather today
+    - How's the weather today?
+- intent: city
+  examples: |
+    - Delhi
+    - delhi
+    - chandigarh
+    - mohali
+    - mumbai
+    - jaipur
+    - san francisco
+    - fairbanks
+    - new york
+    - maui
+    - honolulu
+- intent: monthtovisit
+  examples: |
+    - best month to visit?
+    - which is the best month to visit hawaii?
+    - which month should i plan to visit?
+- intent: hotel
+  examples: |
+    - hotel details?
+    - could you suggest any hotel?
+- intent: activity
+  examples: |
+    - what kind of activity i can do?
+    - i want to make my trip adventurous
+    - where can i book for activity?
+    - how can i make my trip memorable?
+- intent: foodoptions
+  examples: |
+    - i am hungry
+    - food options
+    - where should i have lunch?
+    - lunch near me
+    - dinner near me
+    - lunch options?
+    - lunch options
+- intent: rentacar
+  examples: |
+    - rent a car
+    - how to rent a car in hawaii?
+    - commute options?
+    - i want to rent a car, how can i do it?
+    - how can I rent a car?
+- intent: travel
+  examples: |
+    - I want to go on a vacation
+    - I am bored
+    - I want to plan a trip
+- intent: maui
+  examples: |
+    - I want to go to Maui, could you suggest me things to do?
+    - I want to go to Maui
+    - yes
+    - i want to travel
+- intent: thingstodoinmaui
+  examples: |
+    - What can i do in maui?
+    - What are the things to do in maui?
+    - For maui, What are the things you can help me with?
+    - things to do in maui
+    - things to do in Maui
+    - What do you suggest in maui?
+    - attractions in maui?
+    - what can i do in maui
+    - can you suggest me things to do in maui?
+- intent: thingstodoinisland
+  examples: |
+    - What can i do in big island, hawaii?
+    - What are the things to do in maui?
+    - For big island hawaii,What are the things you can help me with?
+    - things to do in big island, hawaii?
+    - What do you suggest in big island, hawaii?
+    - attractions in big island, hawaii?
+- intent: history
+  examples: |
+    - can you tell me history of maui?
+    - can you tell me history of hawaii?
+    - What is the history of  maui?
+    - What is the history of  hawaii?
+    - history of hawaii?
+    - history of maui?
+    - history of hawii
+- intent: localfood
+  examples: |
+    - can you tell me local food of maui?
+    - what is the local food of maui?
+    - local food of maui?
+    - can you tell me local food of hawaii?
+    - what is the local food of hawaii?
+    - local food of hawaii?
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - Thank you
+    - thank you
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+- intent: mood_happy
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+- synonym: Maui
+  examples: |
+    - maui
+- synonym: Big Island, Hawaii
+  examples: |
+    - big island, hawaii
